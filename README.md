@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+[![react package: v17.0.2](https://img.shields.io/badge/react%20package%3A-%20v17.0.2-blue.svg?style=flat)](https://www.npmjs.com/package/react/v/17.0.2)
+[![mathjs package: v5.2.7](https://img.shields.io/badge/material.ui%20package%3A-%20v5.2.7-blue.svg?style=flat)](https://www.npmjs.com/package/@mui/material)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FormMultiEtapas_ReactJS_TypeScript
 
-## Available Scripts
+Projeto desenvolvido em ReactJS, com os icones do material UI, e usado a API da [The Movie DB](https://www.themoviedb.org/documentation/api?language=pt-BR). Esse projeto é um clone do netflix, com apenas o layout da página principal, porém é feita o consumo de API e muita manipução no CSS.
 
-In the project directory, you can run:
+## 📸 Galeria
 
-### `npm start`
+https://user-images.githubusercontent.com/44379238/152456549-647f852f-2fde-4428-9a8a-e0356bc5a95c.mp4
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :computer: Recursos Utilizados:  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Necessário realizar a instalação das aplicações/frameworks ou realizar cadastros nos itens abaixo:
 
-### `npm test`
+* [Node.js](https://nodejs.org/en/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [The Movie DB](https://www.themoviedb.org/documentation/api?language=pt-BR)
 
-### `npm run build`
+## :fire: Configurando o Projeto Localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1) Crie uma conta na **[TMDB](https://www.themoviedb.org/signup)** para pegar sua API_KEY
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2) Modifique o arquivo src/libs/tmdb.jsx no projeto, colocando sua API Key na variável
+ ```
+ const API_KEY = "SUA_API_KEY";
+ ```
+ 
+ 3) Abra o cmd do Windows ou o terminal do Linux e entre na pasta onde esta localizado o diretorio do projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4) Execute o seguinte comando para fazer a instalar as dependências  do projeto:
+```
+npm install
+```
+5) Depois da instalação, já pode inicializar o projeto com o seguinte comando:
+```
+npm start
+```
